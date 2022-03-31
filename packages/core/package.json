@@ -6,6 +6,9 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "imo-cli": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,5 +22,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "5bd890b5d2b061049e0feef132b5530e5041067c"
+  "gitHead": "aa5500d4859a91aaa0b71cbb8a74428d4f5d1023"
 }
