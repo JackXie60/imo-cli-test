@@ -7,7 +7,7 @@
   "license": "ISC",
   "main": "lib/core.js",
   "bin": {
-    "imo-cli-test": "bin/index.js"
+    "imo-cli-test": "bin/indexrtyrt.js"
   },
   "directories": {
     "lib": "lib",
@@ -19,11 +19,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "@imo-cli-test/utils": "@imo-cli-test/utils"
-  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "d040e45d1a1259b12216d77bfb6c436b966c6fd1"
+  "gitHead": "d040e45d1a1259b12216d77bfb6c436b966c6fd1",
+  "dependencies": {
+    "@imo-cli-test/utils": "file:../../utils/utils"
+  }
 }
