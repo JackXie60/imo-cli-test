@@ -7,7 +7,7 @@
   "license": "ISC",
   "main": "lib/core.js",
   "bin": {
-    "imo-cli-test": "bin/indexrtyrt.js"
+    "imo-cli-test12": "bin/indexrtyrt.js"
   },
   "directories": {
     "lib": "lib",
