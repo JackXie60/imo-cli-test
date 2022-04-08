@@ -1,6 +1,6 @@
 {
   "name": "@imo-cli-test/exec",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "> TODO: description",
   "author": "JackXie60 <1809697652@qq.com>",
   "homepage": "https://github.com/JackXie60/imo-cli-test#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/JackXie60/imo-cli-test/issues"
   },
   "dependencies": {
-    "@imo-cli-test/package": "file:../../models/package",
-    "@imo-cli-test/log": "file:../../utils/log"
+    "@imo-cli-test/log": "file:../../utils/log",
+    "@imo-cli-test/package": "file:../../models/package"
   }
 }

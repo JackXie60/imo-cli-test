@@ -1,6 +1,6 @@
 {
   "name": "@imo-cli-test/package",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "> TODO: description",
   "author": "JackXie60 <1809697652@qq.com>",
   "homepage": "https://github.com/JackXie60/imo-cli-test#readme",
@@ -28,8 +28,8 @@
   },
   "dependencies": {
     "@imo-cli-test/format-path": "file:../../utils/format-path",
+    "@imo-cli-test/get-npm-info": "file:../../utils/get-npm-info",
     "@imo-cli-test/utils": "file:../../utils/utils",
-    "@imo-cli-test/get-npm-info":"file:../../utils/get-npm-info",
     "npminstall": "^6.1.0",
     "pkg-dir": "^4.2.0"
   }
