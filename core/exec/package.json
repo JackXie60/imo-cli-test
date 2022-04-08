@@ -27,7 +27,8 @@
     "url": "https://github.com/JackXie60/imo-cli-test/issues"
   },
   "dependencies": {
-    "@imo-cli-test/log": "file:../../utils/log",
-    "@imo-cli-test/package": "file:../../models/package"
-  }
+    "@imo-cli-test/log": "^0.1.0",
+    "@imo-cli-test/package": "^0.1.0"
+  },
+  "gitHead": "6a0272e80100d133283730a45331403b0050d96e"
 }

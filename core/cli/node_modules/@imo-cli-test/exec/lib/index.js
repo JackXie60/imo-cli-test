@@ -44,7 +44,7 @@ function exec() {
             // 更新
         } else {
             // 安装
-            pkg.install()
+            pkg.install();
         }
 
 

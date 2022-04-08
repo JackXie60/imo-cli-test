@@ -23,13 +23,13 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "d040e45d1a1259b12216d77bfb6c436b966c6fd1",
+  "gitHead": "6a0272e80100d133283730a45331403b0050d96e",
   "dependencies": {
-    "@imo-cli-test/exec": "file:../exec",
+    "@imo-cli-test/exec": "^0.1.0",
     "@imo-cli-test/get-npm-info": "file:../../utils/get-npm-info",
-    "@imo-cli-test/init": "file:../../commands/init",
-    "@imo-cli-test/log": "file:../../utils/log",
-    "@imo-cli-test/utils": "file:../../utils/utils",
+    "@imo-cli-test/init": "^0.1.0",
+    "@imo-cli-test/log": "^0.1.0",
+    "@imo-cli-test/utils": "^0.1.0",
     "colors": "^1.4.0",
     "commander": "^9.1.0",
     "dotenv": "^16.0.0",
