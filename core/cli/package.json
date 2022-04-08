@@ -1,0 +1,43 @@
+{
+  "name": "@imo-cli-test/core",
+  "version": "0.0.9",
+  "description": "desc",
+  "author": "JackXie60 <1809697652@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "bin": {
+    "imo-cli": "bin/index.js"
+  },
+  "type": "commonjs",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "gitHead": "d040e45d1a1259b12216d77bfb6c436b966c6fd1",
+  "dependencies": {
+    "@imo-cli-test/get-npm-info": "file:../../utils/get-npm-info",
+    "@imo-cli-test/log": "file:../../utils/log",
+    "@imo-cli-test/utils": "file:../../utils/utils",
+    "@imo-cli-test/init": "file:../../commands/init",
+    "@imo-cli-test/exec": "file:../exec",
+    "colors": "^1.4.0",
+    "commander": "^9.1.0",
+    "dotenv": "^16.0.0",
+    "import-local": "^3.1.0",
+    "npmlog": "^6.0.1",
+    "path-exists": "^4.0.0",
+    "root-check": "^2.0.0",
+    "semver": "^7.3.6",
+    "user-home": "^3.0.0"
+  }
+}
